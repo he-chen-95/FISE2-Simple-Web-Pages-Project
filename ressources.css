@@ -1,0 +1,73 @@
+#titre {
+	font-family : Impact, Charcoal, sans-serif;
+	font-size : 250%;
+	text-align: center;
+}
+
+div.menu {
+	border: 3px;
+	border-style: solid hidden solid hidden;
+	
+}
+
+table.choix_menu {
+	width:100%;
+	overflow:hidden;
+	table-layout: fixed;
+}
+
+th.choix {
+	padding: 2px;
+	overflow:hidden;
+}
+
+a.link {
+	font-family : Arial, Helvetica, sans-serif;
+}
+
+div.Telechargements, div.Animation_Flash, div.Exemple_de_Code {
+	margin-left: 3%;
+	margin-right:3%;
+}
+
+div.Telechargements {
+	margin-top: 50px;
+}
+
+div.Animation_Flash{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+h2.Telechargements, h2.Animation_Flash, h2.Exemple_de_Code {
+	border:3px;
+	border-bottom:solid;
+}
+
+video.Animation {
+	width : 400px;
+	height: 265px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 35%;
+	border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+div.code {
+	margin-left : 15%;
+	margin-right: 15%;
+}
+
+div.pied {
+	border : 3px;
+	border-style : solid hidden hidden hidden;
+	padding : 30px;
+	background : #000000;
+}
+
+p.copyright {
+	text-align : center;
+	color : #FFFFFF;
+}

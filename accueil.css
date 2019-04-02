@@ -1,0 +1,78 @@
+#titre {
+	font-family : Impact, Charcoal, sans-serif;
+	font-size : 250%;
+	text-align: center;
+}
+
+div.menu {
+	border: 3px;
+	border-style: solid hidden solid hidden;
+	
+}
+
+table.choix_menu {
+	width:100%;
+	overflow:hidden;
+	table-layout: fixed;
+}
+
+th.choix {
+	padding: 2px;
+	overflow:hidden;
+}
+
+a.link {
+	font-family : Arial, Helvetica, sans-serif;
+}
+
+div.presentation {
+	border : 1px;
+	border-style : solid;
+	margin-top: 60px;
+    margin-bottom: 60px;
+    margin-right: 5%;
+    margin-left: 5%;
+	word-wrap: break-word;
+}
+
+div.contact {
+	margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 50%;
+    margin-left: 5%;
+	word-wrap: break-word;
+}
+
+h2.titre_contact {
+	border : 3px;
+	border-style : hidden hidden solid hidden;
+	display: inline;
+}
+
+div.form {
+	margin-left : 80px;
+}
+
+table.form {
+	text-align: right;
+}
+
+td.titre_form {
+	vertical-align : top;
+}
+
+#message {
+	vertical-align : top;
+}
+
+div.pied {
+	border : 3px;
+	border-style : solid hidden hidden hidden;
+	padding : 30px;
+	background : #000000;
+}
+
+p.copyright {
+	text-align : center;
+	color : #FFFFFF;
+}

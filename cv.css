@@ -1,0 +1,132 @@
+#titre {
+	font-family : Impact, Charcoal, sans-serif;
+	font-size : 250%;
+	text-align: center;
+}
+
+div.menu {
+	border: 3px;
+	border-style: solid hidden solid hidden;
+	
+}
+
+table.choix_menu {
+	width:100%;
+	overflow:hidden;
+	table-layout: fixed;
+}
+
+th.choix {
+	padding: 2px;
+	overflow:hidden;
+}
+
+a.link {
+	font-family : Arial, Helvetica, sans-serif;
+}
+
+div.etat_civil_et_photo {
+	margin-top: 60px;
+    margin-bottom: 60px;
+    margin-right: 5%;
+    margin-left: 5%;
+	word-wrap: break-word;
+}
+
+table.etat_civil {
+	width:100%;
+	overflow:hidden;
+}
+
+td.etat_civil {
+	width: 45%;
+	border: 1px;
+	border-style : solid;
+	overflow:hidden;
+	margin-right: 1%;
+}
+
+td.photo {
+	margin-left: 1%;
+}
+
+img.photo {
+	float: right;
+	height: 180px;
+	border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+div.Formations, div.Competences, div.Loisirs {
+	margin-left: 3%;
+	margin-right:3%;
+}
+
+div.Competences {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+div.Loisirs {
+	margin-bottom : 20px;
+}
+
+h2.Formations, h2.Competences, h2.Loisirs {
+	border:3px;
+	border-bottom:solid;
+}
+
+table.Formations, table.Competences, table.Loisirs {
+	font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr.Formations:nth-child(even), tr.Competences:nth-child(even), tr.Loisirs:nth-child(even) {
+    background-color: #dddddd;
+}
+
+th.duree, th.location, th.sujet, th.contenu,
+td.duree, td.location, td.sujet, td.contenu {
+	border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+	text-align:left;
+}
+
+th.duree,td.duree {
+	width : 35%;
+}
+
+th.sujet, td.sujet {
+	width : 35%;
+}
+
+th.duree, th.location, th.sujet, th.contenu {
+	text-align:center;
+}
+
+td.duree, td.location {
+	padding: 1px;
+}
+
+td.sujet, td.contenu {
+	padding: 1px;
+}
+
+ul.Formations, ul.Competences, ul.Loisirs {
+	list-style-type : disc;
+}
+
+div.pied {
+	border : 3px;
+	border-style : solid hidden hidden hidden;
+	padding : 30px;
+	background : #000000;
+}
+
+p.copyright {
+	text-align : center;
+	color : #FFFFFF;
+}
